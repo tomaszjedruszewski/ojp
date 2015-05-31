@@ -20,6 +20,13 @@ Class WindowsFormApplication1.Form2: AutoLayout, AnsiClass, Class, Public, Befor
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label6 : Public
+  Methods:
+    label6_Click(Object, EventArgs): PrivateScope, Public, HideBySig
 Class WindowsFormApplication1.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox comboBox1 : Public
+    System.Windows.Forms.ComboBox comboBox2 : Public
